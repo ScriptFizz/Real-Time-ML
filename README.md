@@ -9,13 +9,13 @@ The project include:
  
 ## Project Structure
 
-> |--main.py
-> |--scripts
->      |--training.py
-> |--utils
->      |--helpers.py
-> |--layouts
->      |--input_layout.py
+> |--main.py  
+> |--scripts  
+>      |--training.py  
+> |--utils  
+>      |--helpers.py  
+> |--layouts  
+>      |--input_layout.py  
 
  - main.py is the entry point of the REST API app.
  - training.py is called to train the ML pipeline.
