@@ -8,14 +8,21 @@ The project include:
  - Health check endpoint.
  
 ## Project Structure
-
-> |--main.py  
-> |--scripts  
->      |--training.py  
-> |--utils  
->      |--helpers.py  
-> |--layouts  
->      |--input_layout.py  
+```
+├── README.md
+│ 
+├── layouts
+│   ├── __init__.py
+│   └── input_layout.py
+├── logging.conf
+├── main.py
+├── scripts
+│   ├── __init__.py
+│   └── training.py
+└── utils
+    ├── __init__.py
+    └── helpers.py
+```
 
  - main.py is the entry point of the REST API app.
  - training.py is called to train the ML pipeline.
